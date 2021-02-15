@@ -173,7 +173,8 @@ public class SatelliteService implements ISatelliteService {
      * @param satellite nueva información para actualizar.
      * @return El satelite actualizado con su nueva información.
      * @throws SatelliteException sera lanzada en el caso de que ocurra algun problema
-     * al actualizar los datos almacenados.
+     * al actualizar los datos almacenados o el nombre del satelite ingresado no se
+     * encuentre dentro de los satelites aliados.
      * @author Mariano Olivera
      */
     public Satellite update(String satelliteName, Satellite satellite) throws SatelliteException
@@ -182,9 +183,7 @@ public class SatelliteService implements ISatelliteService {
 
         if(savedSatellite == null)
         {
-            savedSatellite = new Satellite();
-            savedSatellite.setName(satelliteName);
-            savedSatellite.setPosition(new Position(0, 0));
+            throw new SatelliteException("El nombre del satelite ingresado no pertenece a los reconocidos por la alianza.");
         }
 
         savedSatellite.setDistance(satellite.getDistance());
