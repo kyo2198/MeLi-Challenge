@@ -8,15 +8,15 @@ La arquitectura utilizada para el desarrollo de este proyecto fue realizada Java
 
 Se utiliza una distribución en capas para separar las responsabilidades, quedando de esta manera:
 
-Controllers
-Services
-Repositories
-Models
+- Controllers
+- Services
+- Repositories
+- Models
 
 Dentro del paquete Models se puede apreciar tambien la siguiente distribución
-Exceptions
-Repositoies (Interfaces)
-Services (Interfaces)
+- Exceptions
+- Repositoies (Interfaces)
+- Services (Interfaces)
 
 ## Despliege
 
