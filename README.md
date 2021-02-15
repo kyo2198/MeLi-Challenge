@@ -61,10 +61,7 @@ Ejemplo de body:<br/>
 [GET] http://localhost:8080/topsecret_split/
 
 <br/>
-Endpoints alojados en la nube:<br/>
-<br/>
-[POST] https://meli-challenge-304806.rj.r.appspot.com/topsecret/<br/>
-
-[POST] https://meli-challenge-304806.rj.r.appspot.com/{satellite_name}<br/>
-
-[GET] https://meli-challenge-304806.rj.r.appspot.com/topsecret_split/
+Endpoints alojados en la nube:<br/><br/>
+[POST] https://meli-challenge-304806.rj.r.appspot.com/topsecret/<br/><br/>
+[POST] https://meli-challenge-304806.rj.r.appspot.com/{satellite_name}<br/><br/>
+[GET] https://meli-challenge-304806.rj.r.appspot.com/topsecret_split/<br/><br/>
