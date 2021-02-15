@@ -51,16 +51,16 @@ Ejemplo de body:<br/>
     ]<br/>
 }<br/>
 
-[POST] http://localhost:8080/topsecret_split/{satellite_name}
-Ejemplo de body:
-{
-    "distance": 350.0,
-    "message": ["", "", "", "es", "un", "", "secreto"]
-}
+[POST] http://localhost:8080/topsecret_split/{satellite_name}<br/>
+Ejemplo de body:<br/>
+{<br/>
+    "distance": 350.0,<br/>
+    "message": ["", "", "", "es", "un", "", "secreto"]<br/>
+}<br/>
 
 [GET] http://localhost:8080/topsecret_split/
 
-
+<br/>
 Endpoints alojados en la nube:
 
 [POST] https://meli-challenge-304806.rj.r.appspot.com/topsecret/
