@@ -1,0 +1,7 @@
+com.meli.challenge
+com.meli.challenge.controllers
+com.meli.challenge.models
+com.meli.challenge.models.exceptions
+com.meli.challenge.models.repositories
+com.meli.challenge.models.services
+com.meli.challenge.services

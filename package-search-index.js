@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.meli.challenge"},{"l":"com.meli.challenge.controllers"},{"l":"com.meli.challenge.models"},{"l":"com.meli.challenge.models.exceptions"},{"l":"com.meli.challenge.models.repositories"},{"l":"com.meli.challenge.models.services"},{"l":"com.meli.challenge.services"}];updateSearchResults();
