@@ -29,27 +29,27 @@ Se puede descargar el proyecto GitHub y ejecutar por medio de Spring Boot el cua
 ### Endpoints
 Locales:
 
-[POST] http://localhost:8080/topsecret/
-Ejemplo de body:
-{
-    "satellites": [
-        {
-            "name": "kenobi",
-            "distance": 100,
-            "message": ["", "este", "", "", "mensaje", ""]
-        },
-        {
-            "name": "skywalker",
-            "distance": 350,
-            "message": ["", "es", "", "", "secreto"]
-        },
-        {
-            "name": "sato",
-            "distance": 950,
-            "message": ["", "", "este", "", "un", "", ""]
-        }
-    ]
-}
+[POST] http://localhost:8080/topsecret/<br/>
+Ejemplo de body:<br/>
+{<br/>
+    "satellites": [<br/>
+        {<br/>
+            "name": "kenobi",<br/>
+            "distance": 100,<br/>
+            "message": ["", "este", "", "", "mensaje", ""]<br/>
+        },<br/>
+        {<br/>
+            "name": "skywalker",<br/>
+            "distance": 350,<br/>
+            "message": ["", "es", "", "", "secreto"]<br/>
+        },<br/>
+        {<br/>
+            "name": "sato",<br/>
+            "distance": 950,<br/>
+            "message": ["", "", "este", "", "un", "", ""]<br/>
+        }<br/>
+    ]<br/>
+}<br/>
 
 [POST] http://localhost:8080/topsecret_split/{satellite_name}
 Ejemplo de body:
