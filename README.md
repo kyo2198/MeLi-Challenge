@@ -32,23 +32,23 @@ Locales:
 [POST] http://localhost:8080/topsecret/<br/>
 Ejemplo de body:<br/>
 {<br/>
-    "satellites": [<br/>
-        {<br/>
-            "name": "kenobi",<br/>
-            "distance": 100,<br/>
-            "message": ["", "este", "", "", "mensaje", ""]<br/>
-        },<br/>
-        {<br/>
-            "name": "skywalker",<br/>
-            "distance": 350,<br/>
-            "message": ["", "es", "", "", "secreto"]<br/>
-        },<br/>
-        {<br/>
-            "name": "sato",<br/>
-            "distance": 950,<br/>
-            "message": ["", "", "este", "", "un", "", ""]<br/>
-        }<br/>
-    ]<br/>
+    &nbsp;"satellites": [<br/>
+        &nbsp;&nbsp;{<br/>
+            &nbsp;&nbsp;&nbsp;"name": "kenobi",<br/>
+            &nbsp;&nbsp;&nbsp;"distance": 100,<br/>
+            &nbsp;&nbsp;&nbsp;"message": ["", "este", "", "", "mensaje", ""]<br/>
+        &nbsp;&nbsp;},<br/>
+        &nbsp;&nbsp;{<br/>
+            &nbsp;&nbsp;&nbsp;"name": "skywalker",<br/>
+            &nbsp;&nbsp;&nbsp;"distance": 350,<br/>
+            &nbsp;&nbsp;&nbsp;"message": ["", "es", "", "", "secreto"]<br/>
+        &nbsp;&nbsp;},<br/>
+        &nbsp;&nbsp;{<br/>
+            &nbsp;&nbsp;&nbsp;"name": "sato",<br/>
+            &nbsp;&nbsp;&nbsp;"distance": 950,<br/>
+            &nbsp;&nbsp;&nbsp;"message": ["", "", "este", "", "un", "", ""]<br/>
+        &nbsp;&nbsp;}<br/>
+    &nbsp;]<br/>
 }<br/>
 
 [POST] http://localhost:8080/topsecret_split/{satellite_name}<br/>
@@ -61,7 +61,7 @@ Ejemplo de body:<br/>
 [GET] http://localhost:8080/topsecret_split/
 
 <br/>
-Endpoints alojados en la nube:
+Endpoints alojados en la nube:<br/>
 
 [POST] https://meli-challenge-304806.rj.r.appspot.com/topsecret/
 
